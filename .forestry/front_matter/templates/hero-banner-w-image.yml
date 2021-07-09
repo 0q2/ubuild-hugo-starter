@@ -7,9 +7,6 @@ fields:
   label: block
   name: block
   default: hero-2
-- type: file
-  name: background_image
-  label: Background Image
 - type: field_group
   name: image
   label: Image
@@ -41,5 +38,3 @@ fields:
   - type: boolean
     name: enabled
     label: Enabled
-  - type: include
-    template: link
